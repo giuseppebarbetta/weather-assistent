@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Follower</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="wrap">
+        <div class="searchInput">
+          <input
+            type="text"
+            name="city"
+            id="city"
+            placeholder="Digite sua cidade aqui"
+          />
+          <button onclick="handleClick()">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+        <div class="title">
+          <h2>Tempo em <span class="cityName">Poá</span></h2>
+          <h1><span class="temp">13</span>° C</h1>
+        </div>
+
+        <div class="details">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt="icone do tempo"
+            class="weatherIcon"
+          />
+          <p class="description">Nuvens</p>
+        </div>
+        <p>Umidade: <span class="humidity">70</span>%</p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

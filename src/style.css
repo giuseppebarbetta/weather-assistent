@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fefefe;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  background-image: url('../assets/clouds.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+
+  background-color: rgba(3, 3, 3, 0.8);
+
+  padding: 35px;
+
+  border-radius: 8px;
+}
+
+.searchInput {
+  display: flex;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #fefefe;
+  border-left: 1px solid #fefefe;
+  border-top: 1px solid #fefefe;
+  border-right: none;
+
+  padding: 3px 0 3px 8px;
+  margin-bottom: 26px;
+
+  width: 90%;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: #fefefe;
+
+  border-radius: 8px 0 0 8px;
+  height: 40px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background-color: transparent;
+  height: 40px;
+  border-radius: 0 8px 8px 0;
+  padding: 3px 8px;
+
+  cursor: pointer;
+
+  border-bottom: 1px solid #fefefe;
+  border-left: none;
+  border-top: 1px solid #fefefe;
+  border-right: 1px solid #fefefe;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  h1 {
+    font-size: 53px;
+  }
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+  img {
+    width: 80px;
+  }
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+/* Change backgrouns */
+
+.cloudy {
+  background-image: url('../assets/cloudy.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clouds {
+  background-image: url('../assets/clouds.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sunny {
+  background-image: url('../assets/sunny.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cold {
+  background-image: url('../assets/cold.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.raining {
+  background-image: url('../assets/raining.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
