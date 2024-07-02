@@ -1,6 +1,4 @@
-import 'dotenv/config';
-
-const apiKey = process.env.API_KEY;
+const apiKey = '1b9d914d03bb85737c6bb47be62d7ccc';
 
 //captura os dados da cidade pelo input e repassa para função buscar na API
 function handleClick() {
